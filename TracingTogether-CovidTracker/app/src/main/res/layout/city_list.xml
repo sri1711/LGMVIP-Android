@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="10dp"
+    android:background="@drawable/green_card_bg"
+    android:elevation="5dp"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvDistricName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/cantora_one"
+        android:text="Chennai"
+        android:textStyle="bold"
+        android:textSize="25dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/tvActive"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/state_list_background"
+            android:fontFamily="@font/cantora_one"
+            android:gravity="center"
+            android:textColor="@color/negative"
+            android:text="Active : 34,141"
+            android:textSize="18sp"
+             />
+
+        <TextView
+            android:id="@+id/tvConfirmed"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:text="Confirmed : 34,424"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/cantora_one"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="@color/negative"
+            android:background="@drawable/state_list_background"
+            android:layout_marginRight="10dp"
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/tvDeceased"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/state_list_background"
+            android:fontFamily="@font/cantora_one"
+            android:gravity="center"
+            android:textColor="@color/negative"
+            android:text="Deceased : 34,141"
+            android:textSize="18sp"
+            />
+
+        <TextView
+            android:id="@+id/tvRecovered"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:text="Recovered : 34,424"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:fontFamily="@font/cantora_one"
+            android:textColor="@color/positive"
+            android:background="@drawable/state_list_background"
+            android:layout_marginRight="10dp"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

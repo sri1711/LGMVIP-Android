@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TracingTogether</string>
+    <string name="state_wise_statistics_card_txt">View and analyse District wise statistics of active,confirmed,recovered and deceased data of covid-19</string>
+</resources>
