@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="#A4A4A4">
+
+    <item android:drawable="@drawable/ic_svg_upload_image_button"/>
+
+</ripple>
